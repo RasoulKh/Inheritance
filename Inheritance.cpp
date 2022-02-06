@@ -47,13 +47,15 @@ public:
 
 	void info(){
 		cout  << "This is Info for " <<  ChannelName << " channel of " << OwnerName << endl;
+
 	}
+
+
 };
-//****************************************************
-//******************   Main   ************************
-//****************************************************
+
 int main()
 {
+
 	YouTubeChannel ytCh("Rasoul's Channel", "Rasoul");
 	ytCh.GetInfo();
 	OtherChannel OthChan("Twiter", "John's Channel", "John");
