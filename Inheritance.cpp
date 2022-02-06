@@ -52,7 +52,9 @@ public:
 
 
 };
-
+//*********************************//
+//***********   Main   ************//
+//*********************************//
 int main()
 {
 
@@ -61,7 +63,6 @@ int main()
 	OtherChannel OthChan("Twiter", "John's Channel", "John");
 	OthChan.info();
 	OthChan.GetInfo();
-
 
 	return 0;
 }
